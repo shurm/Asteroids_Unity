@@ -12,7 +12,7 @@ public class StartMenuFunctions : MonoBehaviour
 
     public void DisplayHighScore()
     {
-        SceneManager.LoadScene("GameplayScene");
+        Debug.Log("HighScore Scene not yet implemented");
     }
 
     public void Exit()

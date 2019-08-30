@@ -42,4 +42,10 @@ public class Bullet : MonoBehaviour
             Debug.Log ("Collided with " + collider.tag);
         }
     }
+
+    void OnBecameInvisible()
+    {
+        //Debug.Log("off screen");
+        Destroy(gameObject);
+    }
 }
